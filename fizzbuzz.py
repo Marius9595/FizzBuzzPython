@@ -1,6 +1,7 @@
 
 def fizz_buzz():
-    pass
+    for number in range(1,101):
+        print(evaluate_number(number))
 
 def evaluate_number(number):
 
