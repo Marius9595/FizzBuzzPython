@@ -28,3 +28,15 @@ class TestFizzBuzz(TestCase):
         self.assertEqual(number1, 'Fizz')
         self.assertEqual(number2, 'Fizz')
         self.assertEqual(number3, 'Fizz')
+
+    def test_if_number_is_divisible_by_5_returns_fizz_word(self):
+
+        number1 = evaluate_number(5)
+        number2 = evaluate_number(50)
+        number3 = evaluate_number(75)
+        number4 = evaluate_number(100)
+
+        self.assertEqual(number1, 'Buzz')
+        self.assertEqual(number2, 'Buzz')
+        self.assertEqual(number3, 'Buzz')
+        self.assertEqual(number4, 'Buzz')
