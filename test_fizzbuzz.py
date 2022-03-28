@@ -13,16 +13,16 @@ class TestFizzBuzz(TestCase):
         number4 = evaluate_number(77)
         number5 = evaluate_number(97)
 
-        self.assertEqual(number1, 1)
-        self.assertEqual(number2, 22)
-        self.assertEqual(number3, 52)
-        self.assertEqual(number4, 77)
-        self.assertEqual(number5, 97)
+        self.assertEqual(number1, '1')
+        self.assertEqual(number2, '22')
+        self.assertEqual(number3, '52')
+        self.assertEqual(number4, '77')
+        self.assertEqual(number5, '97')
 
     def test_if_number_is_divisible_by_3_returns_fizz_word(self):
 
         number1 = evaluate_number(3)
-        number2 = evaluate_number(30)
+        number2 = evaluate_number(33)
         number3 = evaluate_number(99)
 
         self.assertEqual(number1, 'Fizz')

@@ -4,11 +4,15 @@ def fizz_buzz():
 
 def evaluate_number(number):
 
+    value = ''
+
     if number % 3 == 0:
-        return 'Fizz'
-    elif number % 5 == 0:
-        return 'Buzz'
-    else:
-        return number
+        value += 'Fizz'
+    if number % 5 == 0:
+        value += 'Buzz'
+    if value == '':
+        value = str(number)
+
+    return value
 
 fizz_buzz()
