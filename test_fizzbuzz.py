@@ -19,7 +19,7 @@ class TestFizzBuzz(TestCase):
         self.assertEqual(number4, 77)
         self.assertEqual(number5, 97)
 
-    def test_if_number_is_divisible_by_4_returns_fizz_word(self):
+    def test_if_number_is_divisible_by_3_returns_fizz_word(self):
 
         number1 = evaluate_number(3)
         number2 = evaluate_number(30)
